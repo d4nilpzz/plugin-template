@@ -15,7 +15,7 @@ Adjust the `gradle.properties` file with your plugin information.
 
 Then you can run the server with `./gradlew runServer` as debuger.
 
-> IMPORTANT
+> [!IMPORTANT]
 > 
 > Use debug mode for development to use hotswap.
 > 

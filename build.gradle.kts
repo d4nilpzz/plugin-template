@@ -16,6 +16,8 @@ val lampVersion: String by extra
 
 val minecraftVersion: String by extra
 
+val minimessageVersion: String by extra
+
 group = pluginGroup
 version = pluginVersion
 description = pluginDescription
@@ -28,6 +30,7 @@ dependencies {
     paperweight.paperDevBundle("$minecraftVersion-R0.1-SNAPSHOT")
     implementation("io.github.revxrsal:lamp.common:$lampVersion")
     implementation("io.github.revxrsal:lamp.bukkit:$lampVersion")
+    implementation("net.kyori:adventure-text-minimessage:$minimessageVersion")
 }
 
 tasks {

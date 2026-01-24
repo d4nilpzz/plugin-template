@@ -3,6 +3,7 @@
 Papermc plugin template for minecraft version 1.21.x with implements.
  - PaperMC
  - Lamp Command Framework
+ - MiniMessage
 
 Getting Started
  - [Wiki](https://github.com/d4nilpzz/plugin-template/wiki)
